@@ -1,6 +1,6 @@
 public abstract class Warrior {
-    private String name;
-    private String specialization;
+    private final String name;
+    private final String specialization;
 
     public abstract void run();
     public abstract void death();
